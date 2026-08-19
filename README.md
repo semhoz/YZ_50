@@ -25,7 +25,6 @@ Bu depo, **YZ50** programı 1. Hafta ödevi kapsamında hazırlanmıştır. Çal
 ```text
 YZ50-WEEK1/
 ├── yz50_hafta1_odev.ipynb   # Ana Ödev Jupyter Notebook Dosyası
-├── create_notebook.py       # Notebook oluşturucu yardımcı betik
 ├── .gitignore               # Gereksiz dosyaları hariç tutma yapılandırması
 └── README.md                # Proje dokümantasyonu
 ```
@@ -51,13 +50,3 @@ YZ50-WEEK1/
    ```bash
    jupyter notebook yz50_hafta1_odev.ipynb
    ```
-
----
-
-## 📹 Video Sunumu & Kavramlar
-
-Videoda ele alınan temel başlıklar:
-- Forward pass mantığı ve nöron/katman matematiği.
-- Loss fonksiyonu ve parametre değişimiyle Loss Landscape ilişkisi.
-- Sayısal türevdeki $h = 10^{-5}$ seçimi ve bilgisayarlardaki Floating Point hassasiyet sınırı.
-- Gradient Descent ile modelin otomatik olarak "öğrenmesi".
